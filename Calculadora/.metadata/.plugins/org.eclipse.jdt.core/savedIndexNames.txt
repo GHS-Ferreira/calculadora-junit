@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\gabri\Documents\Works\Faculdade\5 Periodo\Gestão e Qualidade de software\Terça-Feira\Calculadora\.metadata\.plugins\org.eclipse.jdt.core
+4172631224.index
+213327616.index
+467951239.index
+3629693340.index
+1865797976.index
+1815025119.index
+3130980176.index
+4122948177.index

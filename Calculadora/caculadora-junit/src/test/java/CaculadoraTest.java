@@ -1,0 +1,39 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class CaculadoraTest {
+
+    Calculadora calculadora = new Calculadora();
+
+    @Test
+    void testSomar() {
+        assertEquals(8, calculadora.somar(5, 3));
+    }
+
+    @Test
+    void testSubtrair() {
+        assertEquals(2, calculadora.subtrair(5, 3));
+    }
+
+    @Test
+    void testMultiplicar() {
+        assertEquals(15, calculadora.multiplicar(5, 3));
+    }
+
+    @Test
+    void testDividir() {
+        assertEquals(2, calculadora.dividir(6, 3));
+    }
+
+    @Test
+    void testDividirPorZero() {
+        assertThrows(ArithmeticException.class, () -> {
+            calculadora.dividir(5, 0);
+        });
+    }
+
+    @Test
+    void testPotenciar() {
+        assertEquals(8, calculadora.potenciar(2, 3));
+    }
+}

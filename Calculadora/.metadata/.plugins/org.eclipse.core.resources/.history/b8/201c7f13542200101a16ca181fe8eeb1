@@ -1,0 +1,32 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CaculadoraTest {
+
+	@Test
+	void testSomar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSubtrair() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMultiplicar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDividir() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPotenciar() {
+		fail("Not yet implemented");
+	}
+
+}
